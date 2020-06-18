@@ -32,7 +32,7 @@
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType> Micro </workerType>
-				<applicatinName> helloworld-service </applicatinName>
+				<applicationName> helloworld-service </applicationName>
 				<muleVersion> 4.2.0 </muleVersion>
 				</cloudHubDeployment>
 				</configuration>
