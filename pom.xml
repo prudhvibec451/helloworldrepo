@@ -27,7 +27,7 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-				<userName> pavancap </userName>
+				<username> pavancap </username>
 				<password> pavancaP1 </password>
 				<environment>Sandbox</environment>
 				<workers>1</workers>
