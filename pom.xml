@@ -8,9 +8,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
     
-    
-
-	<name>helloworld-api</name>
+    	<name>helloworld-api</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,6 +26,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+				<userName> pavancap </userName>
+				<password> pavancaP1 </password>
+				<environment>Sandbox</environment>
+				<workers>1</workers>
+				<workerType> Micro </workerType>
+				<applicatinName> helloworld-service </applicatinName>
+				<muleVersion> 4.2.0 </muleVersion>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
